@@ -1,0 +1,123 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+}
+
+.link-header {
+    color: #989D9C;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.button-header {
+    background: #665AE1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.logo-image {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    color: #515151;
+    font-size: 100px;
+    font-weight: 900;
+    line-height: normal;
+}
+
+h2 {
+    color: #515151;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+p {
+    color: #848484;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+    
+}
+
+.button-main {
+    border-radius: 30px;
+    background: #ADFF00;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: normal;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+@media screen and (max-width: 780px) {
+
+    header {
+        display: none;
+    }
+
+    .logo-image {
+        width: 354px;
+        height: 317px;
+        margin: 100px 22px 0 14px;
+        display: block; 
+    }
+    section {
+        margin-left: 64px;
+    }
+    h1 {
+        font-size: 50px;
+        font-weight: 900;
+        width: auto;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-weight: 500;
+        width: auto;
+        text-align: center;
+    }
+
+    p {
+        display: none;
+    }
+
+    .button-main {
+        width: 239px;
+        height: 64px;
+        margin: 17px auto 133px auto;
+    }
+}

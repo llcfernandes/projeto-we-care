@@ -90,24 +90,21 @@ p {
     .logo-image {
         width: 354px;
         height: 317px;
-        margin: 100px 22px 0 14px;
+        margin: 100px auto 0;
         display: block; 
     }
     section {
-        margin-left: 64px;
+        margin: 0 auto;
+        display: block;
     }
     h1 {
         font-size: 50px;
-        font-weight: 900;
-        width: auto;
         text-align: center;
         margin-top: 40px;
     }
 
     h2 {
         font-size: 30px;
-        font-weight: 500;
-        width: auto;
         text-align: center;
     }
 
@@ -116,8 +113,7 @@ p {
     }
 
     .button-main {
-        width: 239px;
-        height: 64px;
-        margin: 17px auto 133px auto;
+        margin: 17px auto;
+        display: block;
     }
 }
